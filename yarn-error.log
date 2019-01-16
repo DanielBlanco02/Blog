@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/gabrielstein/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/ImageMagick/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "passport-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.14.2",
+      "connect-multiparty": "^2.1.0",
+      "cookie-parser": "^1.4.1",
+      "cookie-session": "^2.0.0-beta.3",
+      "express": "^4.13.3",
+      "express-session": "^1.13.0",
+      "express-validator": "^2.18.0",
+      "graceful-fs": "^4.1.11",
+      "jade": "^1.11.0",
+      "log": "^1.4.0",
+      "mongoose": "^4.3.6",
+      "mv": "^2.1.1",
+      "pagseguro": "^0.1.0",
+      "passport": "^0.3.2",
+      "passport-local": "^1.0.0",
+      "password-hash": "^1.2.2",
+      "request": "^2.67.0",
+      "serve-favicon": "^2.3.0",
+      "xml2js": "^0.4.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/gabrielstein/intercorte/node_modules/balanced-match'
